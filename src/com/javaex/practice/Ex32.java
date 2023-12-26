@@ -15,10 +15,10 @@ public class Ex32 {
 		
 		//세로
 		System.out.print("세로: ");
-		double weight = sc.nextDouble();
+		double height = sc.nextDouble();
 		
 		//넓이 
-		System.out.println("삼각형의 높이는 " + width*weight/2 + " 입니다." );
+		System.out.println("삼각형의 높이는 " + width*height/2 + " 입니다." );
 		
 		sc.close();
 	}
