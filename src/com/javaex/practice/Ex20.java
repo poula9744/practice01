@@ -1,0 +1,15 @@
+package com.javaex.practice;
+
+public class Ex20 {
+	
+	public static void main(String[] agrgs) {
+		
+		int i = 10;
+		int n = i++%2; //10(증가 이전 값) % 2 == 0
+		
+		System.out.println(i); //11(증가 이후 값)
+		System.out.println(n); //0
+		
+	}
+
+}
