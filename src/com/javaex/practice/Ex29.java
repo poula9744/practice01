@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Ex29 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in); 
 		
@@ -15,13 +14,13 @@ public class Ex29 {
 		
 		//세로 길이
 		System.out.print("세로를 입력하세요: ");
-		double weight = sc.nextDouble();
+		double height = sc.nextDouble();
 		
 		//사각형의 넓이
-		System.out.println("사각형의 넓이는 " + width*weight);
+		System.out.println("사각형의 넓이는 " + width*height);
 		
 		//사각형의 둘레
-		System.out.println("사각형의 둘레는 " + (width*2+weight*2));
+		System.out.println("사각형의 둘레는 " + (width*2+height*2));
 		
 		sc.close();
 	}
