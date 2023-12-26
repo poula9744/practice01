@@ -11,9 +11,10 @@ public class Ex38 {
 		System.out.print("전체금액을 입력해주세요: ");
 		int money = sc.nextInt();
 		
-		int realmoney = money;
+		int cuttingmoney = money/1000;
+		int realmoney = cuttingmoney*1000;
 		
-		System.out.println("실제지불금액은 " + money + " 입니다.");
+		System.out.println("실제지불금액은 " + realmoney + " 입니다.");
 		
 		sc.close();
 
