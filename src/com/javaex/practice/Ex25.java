@@ -19,7 +19,7 @@ public class Ex25 {
 		//true || false ==> true
 		
 		System.out.println((a/3 == 4) && (a%3 ==2) || (a/3 == 4));
-		//ture && true || false 
+		//true && true || false 
 		//true || false ==> true
 	
 	}
