@@ -10,8 +10,10 @@ public class Ex12 {
 		
 		//char grade = "A";
 		char grade = 'A';
+		String grade2 = "A";
 		
 		int salary = 2000000;
+		String salary2 = "2,000,000";
 		
 		//byte n = 1000; ==> byte는 -128~127 범위까지 표현할 수 있다
 		short n = 1000; 

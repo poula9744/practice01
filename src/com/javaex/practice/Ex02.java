@@ -11,3 +11,9 @@ public class Ex02 {
 	*/
 
 }
+
+/*
+  jdk는 개발도구 +jre로 구성되어 있으면 javac.exe가 포함되어 있다
+  javac.exe를 통해 컴파일을 하며 
+  컴파일 후에는 바이트코드(~.class)파일이 생성된다.
+*/
